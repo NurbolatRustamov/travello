@@ -15,7 +15,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* overflow: hidden; */
 }
 .header-logo p {
   font-family: Poppins, sans-serif;
@@ -239,6 +238,7 @@
 .res-servers {
   padding-top: 140px;
   display: flex;
+
   justify-content: center;
 }
 .offers {
@@ -437,4 +437,326 @@
   line-height: 36px;
   text-align: center;
   color: #292d32;
+}
+.miami {
+  width: 357px;
+  height: 496px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.miami-p {
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  color: #292d32;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+.miami-img {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+.miami-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.miami-box-two {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.miami-box button {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #2d8985;
+  padding: 0px 15px;
+  border: none;
+  background-color: #d6edeb;
+  border-radius: 40px;
+}
+.miami-box p {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #00000080;
+}
+.miami-box-two button {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #fff;
+  padding: 8px 16px;
+  border: 2px solid #177ba5;
+  background-color: #177ba5;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.miami-box-two button:hover {
+  background-color: #fff;
+  color: #177ba5;
+  transition: all 0.6s ease;
+}
+.miami-box-two p {
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #292d32;
+}
+.miami-box-two p mark {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #00000080;
+  background-color: transparent;
+}
+.big-box {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+.big-box-two {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.up {
+  font-family: Poppins, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: center;
+  color: #292d32;
+  padding-top: 140px;
+  padding-bottom: 64px;
+}
+.miami-box .relax {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #f178b6;
+  padding: 0px 15px;
+  border: none;
+  background-color: #fcddec;
+  border-radius: 40px;
+}
+.res-box {
+  display: none;
+}
+.res-box-two {
+  display: none;
+}
+.res-box-three {
+  display: none;
+}
+@media (max-width: 1145px) {
+  .big-box {
+    gap: 10px;
+  }
+  .big-box-two {
+    gap: 10px;
+  }
+}
+@media (max-width: 1106px) {
+  .big-box {
+    display: none;
+  }
+  .big-box-two {
+    display: none;
+  }
+  .res-box {
+    display: flex;
+    padding-bottom: 30px;
+    gap: 24px;
+  }
+  .res-box-two {
+    display: flex;
+    padding-bottom: 30px;
+
+    gap: 24px;
+  }
+  .res-box-three {
+    gap: 24px;
+    display: flex;
+  }
+  .big-res-box {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 742px) {
+  .res-box {
+    gap: 9px;
+    padding-bottom: 15px;
+  }
+  .res-box-two {
+    padding-bottom: 15px;
+    gap: 9px;
+  }
+  .res-box-three {
+    gap: 9px;
+  }
+}
+@media (max-width: 738px) {
+  .res-box {
+    display: none;
+  }
+  .res-box-two {
+    display: none;
+  }
+  .res-box-three {
+    display: none;
+  }
+  .big-box {
+    display: grid;
+  }
+  .big-box-two {
+    display: grid;
+  }
+}
+@media (max-width: 697px) {
+  .up {
+    padding-top: 350px;
+  }
+}
+@media (max-width: 380px) {
+  .miami {
+    width: 323px;
+  }
+}
+@media (max-width: 340px) {
+  .miami {
+    width: 270px;
+    height: 443px;
+  }
+  .miami-img {
+    width: 250px;
+  }
+}
+.offers {
+  /* position: absolute; */
+  /* overflow: hidden; */
+}
+.modal {
+  /* position: relative;
+  top: -733px;
+  z-index: 1;
+  left: 50%; */
+  /* right: 50%; */
+  width: 500px;
+  height: 350px;
+  background-color: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin: 0 auto;
+  margin-top: 50%;
+}
+.con {
+  font-family: Poppins, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-top: 30px;
+  padding-bottom: 17px;
+  padding-left: 15px;
+  text-align: left;
+  color: #292d32;
+}
+.modal-lorem {
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #292d32;
+}
+.modal-line {
+  margin-bottom: 20px;
+  width: 470px;
+  height: 4px;
+  display: flex;
+  /* justify-content: center; */
+  margin: 0 auto;
+  background-color: #2b2c2d;
+}
+.modal-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  padding: 10px 18px;
+  background-color: #05415a;
+  color: #fff;
+  border: 2px solid #05415a;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #05415a;
+  transition: all 0.6s ease;
+}
+.btns {
+  padding: 10px 18px;
+  background-color: #05415a;
+  color: #fff;
+  border: 2px solid #05415a;
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  border-radius: 30px;
+  margin-right: 15px;
+}
+.btns:hover {
+  background-color: #fff;
+  color: #05415a;
+  transition: all 0.6s ease;
+}
+
+.modall {
+  /* position: fixed; */
+}
+@media (max-width: 530px) {
+  .modal {
+    width: 400px;
+    height: 380px;
+  }
+  .modal-line {
+    width: 370px;
+  }
+}
+@media (max-width: 420px) {
+  .modal {
+    width: 300px;
+    height: 440px;
+  }
+  .modal-line {
+    width: 270px;
+  }
 }

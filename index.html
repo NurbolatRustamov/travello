@@ -11,11 +11,15 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="./index.js " defer></script>
     <title>Travello</title>
   </head>
+
   <body>
     <section class="back-header">
+      <div class="bg1"></div>
+      <div class="bg2"></div>
       <header class="header">
         <div class="header-logo">
           <div class="header-logo">
@@ -53,7 +57,7 @@
       <div class="res-servers">
         <section class="header-servers">
           <div class="servers-btn">
-            <button class="btn-plane">
+            <button class="btn-plane active">
               <i class="plane fa-solid fa-plane-up"></i>
               <p class="flight">Flight</p>
             </button>
@@ -63,7 +67,7 @@
             </button>
           </div>
           <div class="container">
-            <div class="box">
+            <div class="box active">
               <ul class="boxChild">
                 <li>
                   <h3>Living From</h3>
@@ -126,7 +130,249 @@
       </div>
     </section>
     <main>
-      <section class="offers"></section>
+      <section class="offers">
+        <h1 class="up">Upcoming Offers</h1>
+        <div class="big-box">
+          <ul class="miami">
+            <p class="miami-p">Miami Beaches</p>
+            <img
+              src="./images/unsplash_7uXn7nudorc.svg"
+              class="miami-img"
+              alt="miami beaches"
+            />
+            <div class="miami-box">
+              <button>Chill</button>
+              <p>2 Days, 1 Nights</p>
+              <p>20.5.2023</p>
+            </div>
+            <div class="miami-box-two">
+              <p>850$<mark>/Person</mark></p>
+              <button class="book">Book Now</button>
+            </div>
+          </ul>
+          <ul class="miami">
+            <p class="miami-p">Japan</p>
+            <img
+              src="./images/unsplash_7uXn7nudorc.png"
+              class="miami-img"
+              alt="miami beaches"
+            />
+            <div class="miami-box">
+              <button class="relax">Relax</button>
+              <p>2 Days, 1 Nights</p>
+              <p>20.5.2023</p>
+            </div>
+            <div class="miami-box-two">
+              <p>1200$<mark>/Person</mark></p>
+              <button class="book">Book Now</button>
+            </div>
+          </ul>
+          <ul class="miami">
+            <p class="miami-p">Dubai</p>
+            <img
+              src="./images/dubai.png"
+              class="miami-img"
+              alt="miami beaches"
+            />
+            <div class="miami-box">
+              <button>Chill</button>
+              <p>2 Days, 1 Nights</p>
+              <p>20.5.2023</p>
+            </div>
+            <div class="miami-box-two">
+              <p>500$<mark>/Person</mark></p>
+              <button class="book">Book Now</button>
+            </div>
+          </ul>
+        </div>
+        <div class="big-box-two">
+          <ul class="miami">
+            <p class="miami-p">Taj-Mahal</p>
+            <img
+              src="./images/taj-mahal.png"
+              class="miami-img"
+              alt="miami beaches"
+            />
+            <div class="miami-box">
+              <button class="relax">RElax</button>
+              <p>2 Days, 1 Nights</p>
+              <p>20.5.2023</p>
+            </div>
+            <div class="miami-box-two">
+              <p>350$<mark>/Person</mark></p>
+              <button class="book">Book Now</button>
+            </div>
+          </ul>
+          <ul class="miami">
+            <p class="miami-p">New York</p>
+            <img
+              src="./images/new-york.png"
+              class="miami-img"
+              alt="miami beaches"
+            />
+            <div class="miami-box">
+              <button>Chill</button>
+              <p>2 Days, 1 Nights</p>
+              <p>20.5.2023</p>
+            </div>
+            <div class="miami-box-two">
+              <p>500$<mark>/Person</mark></p>
+              <button class="book">Book Now</button>
+            </div>
+          </ul>
+          <ul class="miami">
+            <p class="miami-p">Greece</p>
+            <img
+              src="./images/greece.png"
+              class="miami-img"
+              alt="miami beaches"
+            />
+            <div class="miami-box">
+              <button class="relax">RElax</button>
+              <p>2 Days, 1 Nights</p>
+              <p>20.5.2023</p>
+            </div>
+            <div class="miami-box-two">
+              <p>950$<mark>/Person</mark></p>
+              <button class="book">Book Now</button>
+            </div>
+          </ul>
+        </div>
+        <div class="big-res-box">
+          <section>
+            <div class="res-box">
+              <ul class="miami">
+                <p class="miami-p">Miami Beaches</p>
+                <img
+                  src="./images/unsplash_7uXn7nudorc.svg"
+                  class="miami-img"
+                  alt="miami beaches"
+                />
+                <div class="miami-box">
+                  <button>Chill</button>
+                  <p>2 Days, 1 Nights</p>
+                  <p>20.5.2023</p>
+                </div>
+                <div class="miami-box-two">
+                  <p>850$<mark>/Person</mark></p>
+                  <button class="book">Book Now</button>
+                </div>
+              </ul>
+              <ul class="miami">
+                <p class="miami-p">Japan</p>
+                <img
+                  src="./images/unsplash_7uXn7nudorc.png"
+                  class="miami-img"
+                  alt="miami beaches"
+                />
+                <div class="miami-box">
+                  <button class="relax">Relax</button>
+                  <p>2 Days, 1 Nights</p>
+                  <p>20.5.2023</p>
+                </div>
+                <div class="miami-box-two">
+                  <p>1200$<mark>/Person</mark></p>
+                  <button class="book">Book Now</button>
+                </div>
+              </ul>
+            </div>
+            <div class="res-box-two">
+              <ul class="miami">
+                <p class="miami-p">Dubai</p>
+                <img
+                  src="./images/dubai.png"
+                  class="miami-img"
+                  alt="miami beaches"
+                />
+                <div class="miami-box">
+                  <button>Chill</button>
+                  <p>2 Days, 1 Nights</p>
+                  <p>20.5.2023</p>
+                </div>
+                <div class="miami-box-two">
+                  <p>500$<mark>/Person</mark></p>
+                  <button class="book">Book Now</button>
+                </div>
+              </ul>
+              <ul class="miami">
+                <p class="miami-p">Taj-Mahal</p>
+                <img
+                  src="./images/taj-mahal.png"
+                  class="miami-img"
+                  alt="miami beaches"
+                />
+                <div class="miami-box">
+                  <button class="relax">RElax</button>
+                  <p>2 Days, 1 Nights</p>
+                  <p>20.5.2023</p>
+                </div>
+                <div class="miami-box-two">
+                  <p>350$<mark>/Person</mark></p>
+                  <button class="book">Book Now</button>
+                </div>
+              </ul>
+            </div>
+            <div class="res-box-three">
+              <ul class="miami">
+                <p class="miami-p">New York</p>
+                <img
+                  src="./images/new-york.png"
+                  class="miami-img"
+                  alt="miami beaches"
+                />
+                <div class="miami-box">
+                  <button>Chill</button>
+                  <p>2 Days, 1 Nights</p>
+                  <p>20.5.2023</p>
+                </div>
+                <div class="miami-box-two">
+                  <p>500$<mark>/Person</mark></p>
+                  <button class="book">Book Now</button>
+                </div>
+              </ul>
+              <ul class="miami">
+                <p class="miami-p">Greece</p>
+                <img
+                  src="./images/greece.png"
+                  class="miami-img"
+                  alt="miami beaches"
+                />
+                <div class="miami-box">
+                  <button class="relax">RElax</button>
+                  <p>2 Days, 1 Nights</p>
+                  <p>20.5.2023</p>
+                </div>
+                <div class="miami-box-two">
+                  <p>950$<mark>/Person</mark></p>
+                  <button class="book">Book Now</button>
+                </div>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <div
+          id="modal"
+          class="modall fixed w-full h-screen backdrop-blur-[5px] fixed z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden"
+        >
+          <section class="modal">
+            <p class="con">Conditions</p>
+            <div class="modal-line"></div>
+            <p class="modal-lorem">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              deleniti fuga optio ipsum quaerat iure quidem ipsa aut! Ab
+              deleniti omnis nobis, aut maxime iusto? Perspiciatis adipisci
+              alias tenetur, vitae rem cupiditate quos quaerat quas natus aut
+              laboriosam exercitationem necessitatibus quisquam blanditiis,
+              excepturi sit dignissimos nulla dolor suscipit? Voluptas nostrum
+              magnam vel dolores.
+            </p>
+            <div class="modal-btn">
+              <button class="btn">Submit</button>
+              <button class="btns">Cancel</button>
+            </div>
+          </section>
+        </div>
+      </section>
     </main>
   </body>
 </html>
